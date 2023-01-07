@@ -1,4 +1,4 @@
-# n-> number till which we have to find the sum of multiples of 3 and 5
+# n-> number till which we have to find the sum of multiples of 3 and 5, n is included
 n = int(input())
 # sum of multiples of 3
 threes = (n//3)*(2*3+(n//3-1)*3)//2
